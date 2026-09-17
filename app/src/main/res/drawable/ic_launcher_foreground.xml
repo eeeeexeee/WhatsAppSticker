@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Drop shadow -->
+    <path
+        android:pathData="M34,32h32c8.8,0 16,7.2 16,16v18l-18,18H34c-8.8,0 -16,-7.2 -16,-16V48c0,-8.8 7.2,-16 16,-16z"
+        android:fillColor="#33000000" />
+    <!-- Main Sticker Body with folded corner (scaled inside 66dp safe-zone centered around (54,54)) -->
+    <!-- Safe zone is 21 to 87 in both X and Y. Sticker is 28 to 80 (52dp) -->
+    <path
+        android:pathData="M36,28 L66,28 C73.7,28 80,34.3 80,42 L80,64 L64,80 L36,80 C28.3,80 22,73.7 22,66 L22,42 C22,34.3 28.3,28 36,28 Z"
+        android:fillColor="#FFFFFF" />
+    <!-- Sticker Peel / Folded Corner -->
+    <path
+        android:pathData="M64,80 L80,64 L67,64 C65.3,64 64,65.3 64,67 Z"
+        android:fillColor="#E0E0E0" />
+    <!-- Inner Colorful Sticker Badge -->
+    <path
+        android:pathData="M37,33 L64,33 C69,33 73,37 73,42 L73,61 L61,73 L37,73 C32,73 28,69 28,64 L28,42 C28,37 32,33 37,33 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="33"
+                android:endX="73"
+                android:endY="73"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#25D366" />
+                <item android:offset="1.0" android:color="#128C7E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Smiley Face on Sticker -->
+    <!-- Left Eye -->
+    <path
+        android:pathData="M42,47 A3,3 0 1,0 42,53 A3,3 0 1,0 42,47"
+        android:fillColor="#FFFFFF" />
+    <!-- Right Eye -->
+    <path
+        android:pathData="M58,47 A3,3 0 1,0 58,53 A3,3 0 1,0 58,47"
+        android:fillColor="#FFFFFF" />
+    <!-- Smile Path -->
+    <path
+        android:pathData="M43,56 C46,61 54,61 57,56"
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <!-- Sparkle star top right -->
+    <path
+        android:pathData="M81,25 L82.5,29 L86.5,30.5 L82.5,32 L81,36 L79.5,32 L75.5,30.5 L79.5,29 Z"
+        android:fillColor="#FFEB3B" />
+</vector>

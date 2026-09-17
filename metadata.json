@@ -1,0 +1,6 @@
+{
+  "name": "Sticker Maker",
+  "description": "Convert any image format into WhatsApp stickers, organize collections, and export seamlessly on phones and tablets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
